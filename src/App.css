@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Mukta Mahee', sans-serif;
+    background-image: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100vh;
+
+    color: rgb(0, 0, 0);
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  header span {
+    color: rgb(241, 119, 4);
+    text-decoration: underline;
+  }
+
+  header img {
+    width: 500px;
+  }
+  
+  header .title {
+    width: 300px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .container
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .podium {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+    padding: 50px;
+  }
+
+  main ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  main li img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main li:nth-child(2) {
+    padding-bottom: 250px;
+  }
+
+  main li:nth-child(2) img {
+    width: 170px;
+    height: 170px;
+  }
+
+  main li p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  main li span {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  main .revenue {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 70%;
+  }
+  @media(max-width:900px) {
+    section ul {
+      width: 100%;
+    }
+    main ul {
+      flex-direction: column;
+    }
+    main li:nth-child(2) {
+      padding-bottom: 0px;
+    }  
+  }
+
+  section li {
+    display: flex;
+    background: linear-gradient(to left, rgb(245, 219, 219) 90%, rgb(201, 93, 60) 10%);
+    opacity: 0.8;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  section li div {
+    display: flex;
+    width: 100%;
+    opacity: 0.8;
+  }
+
+  section li span:first-child {
+    font-size: 20px;
+    color:  #f1f1f1
+  }
+
+  section li img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  section li p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+
+  section li span:last-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .nome-e-pontos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50px;
+    font-weight: bold;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 219, 219);
+  }
+
+  .row button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .podium button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .row p {
+    background-color: rgb(201, 93, 60);
+    padding: 25px;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 25px;
+  }
+
+  .container-seguir {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 50px;
+  }
+  
+  .row img { 
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+ }
+
+ 
