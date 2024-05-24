@@ -61,10 +61,15 @@ function App() {
     <>
       <div className="container">
         <header>
+          <div className="back"> 
+            <img src="back2.png" alt="Voltar"/>
+          </div>
           <div className="title">
             <span>SportScore</span>
           </div>
-        </header>
+        </header> 
+
+
 
         <main>
           <div className="podium">

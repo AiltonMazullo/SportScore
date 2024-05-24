@@ -235,4 +235,17 @@ body {
     margin-left: 40px;
  }
 
+ .back img {
+  position: fixed;
+  top: 10px; 
+  left: 10px; 
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 35px;
+  height: 30px;
+}
+
+
+
  
