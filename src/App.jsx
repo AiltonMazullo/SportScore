@@ -74,7 +74,7 @@ function App() {
         <main>
           <div className="podium">
             <ul>
-              <li>
+              <li className="segundo">
                 <span>2 °</span>
                 <img
                   id="imagem"
@@ -95,7 +95,7 @@ function App() {
                 </button>
               </li>
 
-              <li>
+              <li className="primeiro">
                 <span>1 °</span>
                 <img
                   id="imagem"
@@ -116,7 +116,7 @@ function App() {
                 </button>
               </li>
 
-              <li>
+              <li className="terceiro">
                 <span>3 °</span>
                 <img
                   id="imagem"
